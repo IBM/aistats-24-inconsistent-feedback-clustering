@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clban"
+version = "0.1.0"
+description = "Code for our AISTATS paper titled \"Clustering Items From Adaptively Collected Inconsistent Feedback\""
+authors = ["Shubham Gupta"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+scipy = "^1.12.0"
+scikit-learn = "^1.4.1.post1"
+tqdm = "^4.66.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
